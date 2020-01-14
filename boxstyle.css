@@ -1,0 +1,47 @@
+div {
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: border-radius 3s ease-in,
+                transform 3s ease-in;
+}
+
+div:hover {
+    border-radius: 0;
+    transform: rotate(360deg);
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+.in {
+    box-shadow: 5px 5px 8px black inset;
+}
+
+.out {
+    box-shadow: 5px 5px 8px black;
+}
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}

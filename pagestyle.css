@@ -1,0 +1,28 @@
+header,
+nav,
+article,
+aside,
+footer {
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+article {
+    float: left;
+    margin-right: 20px;
+    width: 60%;
+}
+
+aside {
+    float: left;
+    width: calc(40% - 140px);
+}
+
+footer {
+    clear: both;
+}
